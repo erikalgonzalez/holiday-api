@@ -1,4 +1,4 @@
   json.id holiday.id
   json.name holiday.name
-  json.width holiday.description
-  json.height holiday.image_url
+  json.description holiday.description
+  json.image_url holiday.image_url
