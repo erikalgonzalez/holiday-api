@@ -1,5 +1,6 @@
 class HolidaysController < ApplicationController
   def index
-    render json: {message: "happy holidays"}
+    @holidays = Holiday.all
+    render :index
   end 
 end
